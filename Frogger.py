@@ -18,6 +18,15 @@ truck2 = drawpad.create_rectangle(150,450,210,480, fill = "purple")
 truck3 = drawpad.create_rectangle(300,450,360,480, fill = "yellow")
 truck4 = drawpad.create_rectangle(450,450,510,480, fill = "yellow")
 truck5 = drawpad.create_rectangle(600,450,660,480, fill = "purple")
+truck6 = drawpad.create_rectangle(200,350,260,380, fill = "blue")
+truck7 = drawpad.create_rectangle(350,350,410,380, fill = "red")
+truck8 = drawpad.create_rectangle(500,350,560,380, fill = "black")
+truck9 = drawpad.create_rectangle(650,350,710,380, fill = "black")
+truck10= drawpad.create_rectangle(20,350,80,380, fill = "blue")
+car1 = drawpad.create_rectangle(40,400,80,430, fill = "red")
+car2 = drawpad.create_rectangle(240,400,280,430, fill = "blue")
+car3 = drawpad.create_rectangle(440,400,480,430, fill = "forestgreen")
+car4 = drawpad.create_rectangle(640,400,680,430, fill = "red")
 
 
 

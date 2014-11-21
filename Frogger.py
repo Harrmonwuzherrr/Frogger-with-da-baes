@@ -27,7 +27,16 @@ car1 = drawpad.create_rectangle(40,400,80,430, fill = "red")
 car2 = drawpad.create_rectangle(240,400,280,430, fill = "blue")
 car3 = drawpad.create_rectangle(440,400,480,430, fill = "forestgreen")
 car4 = drawpad.create_rectangle(640,400,680,430, fill = "red")
+Log1 = drawpad.create_rectangle(0,50,80,90, fill = "brown")
 
+
+
+
+
+
+
+
+player = drawpad.create_oval(350,575,375,600, fill = "lightgreen")
 
 
 

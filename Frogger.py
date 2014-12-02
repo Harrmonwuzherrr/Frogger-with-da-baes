@@ -18,27 +18,16 @@ truck1 = drawpad.create_rectangle(0,450,60,480, fill = "yellow")
 truck2 = drawpad.create_rectangle(150,450,210,480, fill = "purple")
 truck3 = drawpad.create_rectangle(300,450,360,480, fill = "yellow")
 truck4 = drawpad.create_rectangle(450,450,510,480, fill = "yellow")
-truck5 = drawpad.create_rectangle(600,450,660,480, fill = "purple")
-#top of road
-truck6 = drawpad.create_rectangle(200,350,260,380, fill = "blue")
-truck7 = drawpad.create_rectangle(350,350,410,380, fill = "red")
-truck8 = drawpad.create_rectangle(500,350,560,380, fill = "black")
-truck9 = drawpad.create_rectangle(650,350,710,380, fill = "black")
-truck10= drawpad.create_rectangle(20,350,80,380, fill = "blue")
+
 #medium row of road
 car1 = drawpad.create_rectangle(40,400,80,430, fill = "red")
-car2 = drawpad.create_rectangle(240,400,280,430, fill = "blue")
-car3 = drawpad.create_rectangle(440,400,480,430, fill = "forestgreen")
-car4 = drawpad.create_rectangle(640,400,680,430, fill = "red")
+
 # first row of logs
-Log1 = drawpad.create_rectangle(0,70,80,30, fill = "brown")
-Log2 = drawpad.create_rectangle(150,70,230,30, fill = "brown")
-Log3 = drawpad.create_rectangle(300,70,380,30, fill = "brown")
+
 Log4 = drawpad.create_rectangle(450,70,530,30, fill = "brown")
 Log5 = drawpad.create_rectangle(600,70,680,30, fill = "brown")
 #second row of logs
-Log6 = drawpad.create_rectangle(0,150,80,190, fill = "brown")
-Log7 = drawpad.create_rectangle(150,150,230,190, fill = "brown")
+
 Log8 = drawpad.create_rectangle(300,150,380,190, fill = "brown")
 Log9 = drawpad.create_rectangle(450,150,530,190, fill = "brown")
 Log10= drawpad.create_rectangle(600,150,680,190, fill = "brown")
@@ -49,7 +38,7 @@ Log10= drawpad.create_rectangle(600,150,680,190, fill = "brown")
 player = drawpad.create_oval(350,575,375,600, fill = "lightgreen")
 
 
-collisionlist = [truck1,truck2,truck3,truck4,truck5,truck6,truck7,truck8,truck9,truck10,car1,car2,car3,car4,Log1,Log2,Log3,Log4,Log5,Log6,Log7,Log8,Log9,Log10,lillypad1,lillypad2,lillypad3,lillypad4,lillypad5,lillypad6,lillypad7,water,player,]
+collisionlist = [truck1,truck2,truck3,truck4,car1,Log4,Log5,Log8,Log9,Log10,lillypad1,lillypad2,lillypad3,lillypad4,lillypad5,lillypad6,lillypad7,water,player,]
 
 
 
@@ -57,22 +46,7 @@ collisionlist = [truck1,truck2,truck3,truck4,truck5,truck6,truck7,truck8,truck9,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          
 
 
 
